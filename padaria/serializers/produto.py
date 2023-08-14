@@ -29,4 +29,6 @@ class ProdutoDetailSerializer(ModelSerializer):
 class ProdutoListSerializer(ModelSerializer):
     class Meta:
         model = Produto
-        fields = ["id", "nome", "preco"]
+        fields = ["id", "nome", "descricao", "preco", "imagem"]
+        depth = 1
+        
