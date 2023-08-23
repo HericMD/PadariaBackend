@@ -42,3 +42,4 @@ class Image(models.Model):
     @property
     def url(self):
         return self.file.url
+

@@ -26,3 +26,4 @@ class ImageSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         raise NotImplementedError("Use ImageUploadSerializer to create images.")
+
