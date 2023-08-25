@@ -14,7 +14,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='produto',
             name='imagem',
-            field=models.ImageField(default=1, upload_to=padaria.models.produto.image_file_path),
+            field=models.ImageField(default=1, upload_to=padaria.models.produto),
             preserve_default=False,
         ),
     ]
