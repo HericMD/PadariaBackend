@@ -8,6 +8,7 @@ class Usuario(models.Model):
     email = models.EmailField(null=False, blank=False)
     telefone = models.FloatField(max_length=11, null=True, blank=True)
     senha = models.CharField(max_length=50, null=False, blank=False)
+    imagem = models.ImageField(upload_to=(''), null=True, blank=True)
     
     endereco_padrao = models.ForeignKey(Endereco, on_delete=models.PROTECT, related_name="usuarios")
 
