@@ -8,7 +8,7 @@ from uploader.router import router as uploader_router
 
 from rest_framework.routers import DefaultRouter
 
-from padaria.views import CarrinhoViewSet, EnderecoViewSet, ProdutoViewSet, UsuarioViewSet
+from padaria.views import CarrinhoViewSet, CategoriaViewSet, EnderecoViewSet, ProdutoViewSet, UsuarioViewSet
 
 from drf_spectacular.views import (
     SpectacularAPIView,
@@ -18,6 +18,7 @@ from drf_spectacular.views import (
 
 router = DefaultRouter()
 router.register(r"carrinho", CarrinhoViewSet)
+router.register(r"categoria", CategoriaViewSet)
 router.register(r"endereco", EnderecoViewSet)
 router.register(r"produto", ProdutoViewSet)
 router.register(r"usuario", UsuarioViewSet)
