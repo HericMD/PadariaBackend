@@ -9,3 +9,6 @@ from padaria.serializers import EnderecoSerializer
 class EnderecoViewSet(ModelViewSet):
     queryset = Endereco.objects.all()
     serializer_class = EnderecoSerializer
+
+    # def create(self, request):
+    #     breakpoint()
