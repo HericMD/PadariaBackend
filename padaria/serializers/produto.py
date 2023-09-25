@@ -1,4 +1,5 @@
-from rest_framework.serializers import ModelSerializer
+
+from rest_framework.serializers import ModelSerializer, CharField
 
 from uploader.serializers import ImageSerializer
 
@@ -17,8 +18,9 @@ class ProdutoDetailSerializer(ModelSerializer):
 
 
 class ProdutoListSerializer(ModelSerializer):
+    categoria = CharField(source="categoria.descricao", read_only=True)
     class Meta:
         model = Produto
-        fields = ["id", "nome", "descricao", "preco", "imagem"]
-        depth = 1
+        fields = ["id", "nome", "descricao", "preco", "imagem", "categoria"]
+        depth = 0
         
