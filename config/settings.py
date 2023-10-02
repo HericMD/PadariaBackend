@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
+    "rest_framework_simplejwt",
     'uploader',
     'padaria',
     'drf_spectacular',
@@ -42,7 +43,7 @@ INSTALLED_APPS = [
 #     MEDIA_URL = f"http://{MY_IP}:19003/media/"
 # else:
 #     MEDIA_URL = "/media"
-MEDIA_URL = "http://191.52.55.159:19003/media/"     #B1
+MEDIA_URL = "http://191.52.55.35:19003/media/"     #B1
 # MY_IP = os.getenv("MY_IP", "127.0.0.1")
 # MEDIA_URL = f"http://{MY_IP}:19003/media/"
 MEDIA_ENDPOINT = "/media/"
@@ -137,10 +138,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOW_ALL_ORIGINS = True
 
 REST_FRAMEWORK = {
-    #"DEFAULT_PERMISSION_CLASSES": [
-     #   "rest_framework.permissions.IsAuthenticated",
-    #],
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+    "DEFAULT_AUTHENTICATION_CLASSES": (
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
+    ),
 }
 SPECTACULAR_SETTINGS = {
     "TITLE": "Livraria API",

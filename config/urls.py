@@ -16,6 +16,11 @@ from drf_spectacular.views import (
     SpectacularSwaggerView,
 )
 
+from rest_framework_simplejwt.views import (
+    TokenObtainPairView,
+    TokenRefreshView,
+)
+
 router = DefaultRouter()
 router.register(r"carrinho", CarrinhoViewSet)
 router.register(r"categoria", CategoriaViewSet)
@@ -38,6 +43,8 @@ urlpatterns = [
         name="redoc",
     ),
     path("api/media/", include(uploader_router.urls)),
+    path("api/token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
+    path("api/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
 ]
 
 urlpatterns += static(settings.MEDIA_ENDPOINT, document_root=settings.MEDIA_ROOT)
