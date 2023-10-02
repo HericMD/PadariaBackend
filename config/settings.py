@@ -8,6 +8,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
+MODE = os.getenv("MODE", "DEVELOPMENT")
+
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-*4+ctahz*2tcnr2r=6v_k_@!cipaawug)(rf_yfn&2=q9@4wqh'
 
@@ -34,8 +36,15 @@ INSTALLED_APPS = [
 ]
 
 # App Uploader settings
-# MEDIA_URL = "http://191.52.55.35:19003/media/"    #B2
+
+# if MODE == "DEVELOPMENT":
+#     MY_IP = os.getenv("MY_IP", "127.0.0.1")
+#     MEDIA_URL = f"http://{MY_IP}:19003/media/"
+# else:
+#     MEDIA_URL = "/media"
 MEDIA_URL = "http://191.52.55.159:19003/media/"     #B1
+# MY_IP = os.getenv("MY_IP", "127.0.0.1")
+# MEDIA_URL = f"http://{MY_IP}:19003/media/"
 MEDIA_ENDPOINT = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
 FILE_UPLOAD_PERMISSIONS = 0o640

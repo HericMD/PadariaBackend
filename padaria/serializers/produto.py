@@ -22,5 +22,5 @@ class ProdutoListSerializer(ModelSerializer):
     class Meta:
         model = Produto
         fields = ["id", "nome", "descricao", "preco", "imagem", "categoria"]
-        depth = 0
+        depth = 1
         
