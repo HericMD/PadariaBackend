@@ -9,6 +9,7 @@ from uploader.router import router as uploader_router
 from rest_framework.routers import DefaultRouter
 
 from padaria.views import CarrinhoViewSet, CategoriaViewSet, EnderecoViewSet, ProdutoViewSet, UsuarioViewSet
+from uploader.views import ImageUploadViewSet
 
 from drf_spectacular.views import (
     SpectacularAPIView,
@@ -27,6 +28,7 @@ router.register(r"categoria", CategoriaViewSet)
 router.register(r"endereco", EnderecoViewSet)
 router.register(r"produto", ProdutoViewSet)
 router.register(r"usuario", UsuarioViewSet)
+router.register(r"imagem", ImageUploadViewSet)
 
 urlpatterns = [
     path("admin/", admin.site.urls),
