@@ -13,6 +13,8 @@ DEBUG = os.getenv("DEBUG", "False")
 ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = ["http://localhost:3000", "http://localhost:8000", "https://*.fl0.io/"]
 
+AUTH_USER_MODEL = "usuario.Usuario"
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -24,6 +26,7 @@ INSTALLED_APPS = [
     'rest_framework',
     "rest_framework_simplejwt",
     'uploader',
+    'usuario',
     'padaria',
     'drf_spectacular',
 ]
@@ -33,6 +36,7 @@ if MODE in ["PRODUCTION", "MIGRATE"]:
 else:    
     MY_IP = os.getenv("MY_IP", "127.0.0.1")
     MEDIA_URL = f"http://{MY_IP}:19003/media/"
+    # MEDIA_URL = "http://127.0.0.1:8000/media"
 
 if MODE == "PRODUCTION":
     STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")

@@ -6,3 +6,4 @@ class CarrinhoSerializer(ModelSerializer):
     class Meta:
         model = Carrinho
         fields = "__all__"
+        depth = 2

@@ -5,11 +5,13 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 from uploader.router import router as uploader_router
+from usuario.router import router as usuario_router
 
 from rest_framework.routers import DefaultRouter
 
-from padaria.views import CarrinhoViewSet, CategoriaViewSet, EnderecoViewSet, ProdutoViewSet, UsuarioViewSet
+from padaria.views import CarrinhoViewSet, CategoriaViewSet, EnderecoViewSet, ProdutoViewSet #UsuarioViewSet
 from uploader.views import ImageUploadViewSet
+from usuario.views import UsuarioViewSet
 
 from drf_spectacular.views import (
     SpectacularAPIView,
@@ -27,12 +29,13 @@ router.register(r"carrinho", CarrinhoViewSet)
 router.register(r"categoria", CategoriaViewSet)
 router.register(r"endereco", EnderecoViewSet)
 router.register(r"produto", ProdutoViewSet)
-router.register(r"usuario", UsuarioViewSet)
 router.register(r"imagem", ImageUploadViewSet)
+router.register(r"usuario", UsuarioViewSet)
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include(router.urls)),
+    path("api/", include(usuario_router.urls)),
     path("api/schema/", SpectacularAPIView.as_view(), name="schema"),
     path(
         "api/swagger/",
