@@ -18,3 +18,4 @@ class UsuarioSerializer(ModelSerializer):
     class Meta:
         model = Usuario
         fields = "__all__"
+        depth = 2
