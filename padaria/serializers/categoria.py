@@ -1,9 +1,10 @@
-from rest_framework.serializers import ModelSerializer
+from rest_framework.serializers import ModelSerializer, CharField
 
 from padaria.models import Categoria
 
 class CategoriaSerializer(ModelSerializer):
+    # imagem = CharField(source="imagem.file", read_only=True)
     class Meta:
         model = Categoria
-        fields = "__all__"
+        fields = ["id", "descricao", "imagem"]
         depth = 1

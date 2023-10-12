@@ -1,4 +1,3 @@
-
 from rest_framework.serializers import ModelSerializer, CharField
 
 from uploader.serializers import ImageSerializer

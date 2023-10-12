@@ -9,7 +9,7 @@ from usuario.router import router as usuario_router
 
 from rest_framework.routers import DefaultRouter
 
-from padaria.views import CarrinhoViewSet, CategoriaViewSet, EnderecoViewSet, ProdutoViewSet #UsuarioViewSet
+from padaria.views import CarrinhoViewSet, CategoriaViewSet, EnderecoViewSet, ProdutoViewSet
 from uploader.views import ImageUploadViewSet
 from usuario.views import UsuarioViewSet
 

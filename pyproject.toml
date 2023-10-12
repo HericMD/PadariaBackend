@@ -24,7 +24,7 @@ license = {text = "MIT"}
 
 [tool.pdm.scripts]
 pre_dev = "python ./scripts/set_my_ip.py"
-dev = "python manage.py runserver 191.52.55.159:19003"
+dev = "python manage.py runserver"
 
 [[tool.pdm.autoexport]]
 filename = "requirements.txt"
