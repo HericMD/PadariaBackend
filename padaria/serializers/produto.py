@@ -18,8 +18,9 @@ class ProdutoDetailSerializer(ModelSerializer):
 
 class ProdutoListSerializer(ModelSerializer):
     categoria = CharField(source="categoria.descricao", read_only=True)
+    unidade = CharField(source="get_unidade_display", read_only=True)
     class Meta:
         model = Produto
-        fields = ["id", "nome", "descricao", "preco", "imagem", "categoria"]
+        fields = ["id", "nome", "unidade", "preco", "imagem", "categoria"]
         depth = 1
         
