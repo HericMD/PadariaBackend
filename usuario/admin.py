@@ -34,6 +34,15 @@ class CustomUserAdmin(UserAdmin):
             },
         ),
         (
+            _("Padaria"),
+            {
+                "fields": (
+                    "enderecos",
+                    "carrinhos"
+                )
+            }
+        ),
+        (
             _("Personal info"),
             {"fields": ("cpf", "telefone", "data_nascimento")},
         ),
