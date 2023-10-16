@@ -31,16 +31,35 @@ INSTALLED_APPS = [
     'drf_spectacular',
 ]
 
-if MODE in ["PRODUCTION", "MIGRATE"]:
-    MEDIA_URL = "https://gympie-wallaby-hpfr.1.us-1.fl0.io/media/"
-else:    
-    MY_IP = os.getenv("MY_IP", "127.0.0.1")
-    MEDIA_URL = f"http://{MY_IP}:19003/media/"
-    # MEDIA_URL = "http://127.0.0.1:8000/media/"
+# if MODE in ["PRODUCTION", "MIGRATE"]:
+#     MEDIA_URL = "https://gympie-wallaby-hpfr.1.us-1.fl0.io/media/"
+# else:    
+#     MY_IP = os.getenv("MY_IP", "127.0.0.1")
+#     # MEDIA_URL = f"http://{MY_IP}:19003/media/"
+#     MEDIA_URL = "http://127.0.0.1:8000/media/"
 
-if MODE == "PRODUCTION":
-    STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
-    STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+# if MODE == "PRODUCTION":
+#     STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+#     STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
+if MODE in ["PRODUCTION", "MIGRATE"]:
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.postgresql",
+            "NAME": os.getenv("DATABASE_NAME"),
+            "USER": os.getenv("DATABASE_USER"),
+            "PASSWORD": os.getenv("DATABASE_PASSWORD"),
+            "HOST": os.getenv("DATABASE_HOST"),
+            "PORT": os.getenv("DATABASE_PORT"),
+        }
+    }
+else:
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": BASE_DIR / "db.sqlite3",
+        }
+    }
 
 # MEDIA_URL = "http://192.168.0.19:19003/media/"
 MEDIA_ENDPOINT = "/media/"
