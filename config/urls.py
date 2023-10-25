@@ -9,7 +9,7 @@ from usuario.router import router as usuario_router
 
 from rest_framework.routers import DefaultRouter
 
-from padaria.views import CarrinhoViewSet, CategoriaViewSet, EnderecoViewSet, ProdutoViewSet
+from padaria.views import CarrinhoViewSet, CategoriaViewSet, EnderecoViewSet, ProdutoViewSet, ItemViewSet
 from uploader.views import ImageUploadViewSet
 from usuario.views import UsuarioViewSet
 
@@ -31,6 +31,7 @@ router.register(r"endereco", EnderecoViewSet)
 router.register(r"produto", ProdutoViewSet)
 router.register(r"imagem", ImageUploadViewSet)
 router.register(r"usuario", UsuarioViewSet)
+router.register(r"item", ItemViewSet)
 
 urlpatterns = [
     path("admin/", admin.site.urls),

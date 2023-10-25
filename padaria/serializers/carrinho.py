@@ -22,13 +22,5 @@ class CarrinhoListSerializer(ModelSerializer):
     cep = IntegerField(source="endereco.cep", read_only=True)
     class Meta:
         model = Carrinho
-        fields = ["id", "cep", "numero", "complemento", "produto"]
+        fields = ["id", "cep", "numero", "complemento", "item"]
         depth = 2
-
-# class ProdutoListSerializer(ModelSerializer):
-#     categoria = CharField(source="categoria.descricao", read_only=True)
-#     class Meta:
-#         model = Produto
-#         fields = ["id", "nome", "descricao", "preco", "imagem", "categoria"]
-#         depth = 1
-        
