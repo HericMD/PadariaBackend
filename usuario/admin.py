@@ -38,7 +38,7 @@ class CustomUserAdmin(UserAdmin):
             {
                 "fields": (
                     "enderecos",
-                    "carrinhos"
+                    "carrinho"
                 )
             }
         ),

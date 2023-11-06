@@ -22,7 +22,7 @@ class Usuario(AbstractUser):
         default=None,
     )
     enderecos = models.ManyToManyField(Endereco, blank=True, default=None)
-    carrinhos = models.ManyToManyField(Carrinho, blank=True, default=None)
+    carrinho = models.ForeignKey(Carrinho, on_delete=models.CASCADE, null=True,blank=True, default=None)
 
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = []

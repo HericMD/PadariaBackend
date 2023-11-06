@@ -8,13 +8,13 @@ class CarrinhoSerializer(ModelSerializer):
     class Meta:
         model = Carrinho
         fields = "__all__"
-        depth = 2
+        # depth = 2
 
 class CarrinhoDetailSerializer(ModelSerializer):
     class Meta:
         model = Carrinho
         fields = "__all__"
-        depth = 2
+        # depth = 2
 
 class CarrinhoListSerializer(ModelSerializer):
     complemento = CharField(source="endereco.complemento", read_only=True)
@@ -23,4 +23,4 @@ class CarrinhoListSerializer(ModelSerializer):
     class Meta:
         model = Carrinho
         fields = ["id", "cep", "numero", "complemento", "item"]
-        depth = 2
+        # depth = 2
