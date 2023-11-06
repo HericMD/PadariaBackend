@@ -28,7 +28,7 @@ class ProdutoDetailSerializer(ModelSerializer):
 
 class ProdutoListSerializer(ModelSerializer):
     categoria = CharField(source="categoria.descricao", read_only=True)
-    unidade = CharField(source="get_unidade_display", read_only=True)
+    unidade = CharField(source="get_unidade_display", read_only=True) 
     cover_attachment_key = serializers.SlugRelatedField(
         source="cover",
         queryset=Image.objects.all(),       # pylint: disable=no-member
@@ -41,5 +41,5 @@ class ProdutoListSerializer(ModelSerializer):
     class Meta:
         model = Produto
         fields = "__all__"
-        depth=1
+        depth = 1
         

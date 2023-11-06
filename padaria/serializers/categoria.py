@@ -7,4 +7,4 @@ class CategoriaSerializer(ModelSerializer):
     class Meta:
         model = Categoria
         fields = ["id", "descricao", "imagem"]
-        depth = 1
+        # depth = 1

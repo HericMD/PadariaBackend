@@ -8,13 +8,15 @@ class CarrinhoSerializer(ModelSerializer):
     class Meta:
         model = Carrinho
         fields = "__all__"
-        # depth = 2
+        # depth = 1
 
 class CarrinhoDetailSerializer(ModelSerializer):
+    unidade = CharField(source="get_unidade_display", read_only=True)
     class Meta:
         model = Carrinho
         fields = "__all__"
-        # depth = 2
+        # fields = ["id", "unidade"]
+        depth = 3
 
 class CarrinhoListSerializer(ModelSerializer):
     complemento = CharField(source="endereco.complemento", read_only=True)

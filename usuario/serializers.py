@@ -4,7 +4,7 @@ from .models import Usuario
 from uploader.models import Image
 from uploader.serializers import ImageSerializer
 from padaria.models import Carrinho
-from padaria.serializers import CarrinhoSerializer, EnderecoSerializer
+from padaria.serializers import CarrinhoDetailSerializer, EnderecoSerializer
 
 class UsuarioSerializer(ModelSerializer):
     foto_attachment_key = SlugRelatedField(
@@ -16,7 +16,7 @@ class UsuarioSerializer(ModelSerializer):
     )
     foto = ImageSerializer(required=False, read_only=True)
 
-    carrinho = CarrinhoSerializer(required=False, read_only=False)
+    carrinho = CarrinhoDetailSerializer(required=False, read_only=False)
     endereco = EnderecoSerializer(required=False, read_only=False)
 
     class Meta:

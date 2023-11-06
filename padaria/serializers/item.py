@@ -6,3 +6,4 @@ class ItemSerializer(ModelSerializer):
     class Meta:
         model = Item
         fields = "__all__"
+        depth = 2
