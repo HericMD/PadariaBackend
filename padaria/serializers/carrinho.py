@@ -25,4 +25,4 @@ class CarrinhoListSerializer(ModelSerializer):
     class Meta:
         model = Carrinho
         fields = ["id", "cep", "numero", "complemento", "item"]
-        # depth = 2
+        depth = 3

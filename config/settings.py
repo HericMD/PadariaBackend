@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -32,17 +33,6 @@ INSTALLED_APPS = [
     'padaria',
     'drf_spectacular',
 ]
-
-# if MODE in ["PRODUCTION", "MIGRATE"]:
-#     MEDIA_URL = "https://gympie-wallaby-hpfr.1.us-1.fl0.io/media/"
-# else:    
-#     MY_IP = os.getenv("MY_IP", "127.0.0.1")
-#     # MEDIA_URL = f"http://{MY_IP}:19003/media/"
-#     MEDIA_URL = "http://127.0.0.1:8000/media/"
-
-# if MODE == "PRODUCTION":
-#     STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
-#     STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 if MODE in ["PRODUCTION", "MIGRATE"]:
     DATABASES = {
@@ -105,13 +95,6 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -152,7 +135,7 @@ STATIC_URL = "/static/"
 if MODE in ["PRODUCTION", "MIGRATE"]:
     CLOUDINARY_URL = os.getenv("CLOUDINARY_URL")
     DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
-    STATIC_ROOT = os.path.join(BASE_DIR, "static")
+    STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
     MEDIA_URL = '/media/' 
 else:    
