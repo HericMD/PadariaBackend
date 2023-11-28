@@ -2,7 +2,7 @@ from django.db import models
 from padaria.models import Produto
 
 class Item(models.Model):
-    produto = models.ForeignKey(Produto, on_delete=models.PROTECT, related_name="item", null=True, blank=True)
+    produto = models.ForeignKey(Produto, on_delete=models.PROTECT, related_name="item")
     quantidade = models.IntegerField(default = 1)
 
     def __str__(self):
