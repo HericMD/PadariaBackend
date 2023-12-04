@@ -1,0 +1,1936 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-10-12T17:48:48.882Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "(Pães - 074456d8-2088-4de0-b566-84268e5d6ed9)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-10-12T17:48:51.463Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Pães",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-10-12T17:49:06.777Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "(Bebidas - 1813cf73-3217-49d7-998b-860449ac1108)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-10-12T17:49:27.124Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "(Doces - 1b3f2f75-3718-41da-88b8-c1ce36bca501)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-10-12T17:49:43.740Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "(Salgados - 66dd6aa7-5fd1-47d3-a8a0-941f7ed46914)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-10-12T17:49:54.327Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "(café - b41b43de-c3e8-4671-8470-8ff2a0e703be)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-10-12T17:50:15.981Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "(folhado de frango - 48eb41c5-e3d8-4cef-a2f2-87e0c9dc0b03)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-10-12T17:50:28.674Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "(donut de chocolate - e27cea5c-75ad-4c67-a490-f256a144c82d)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-10-12T17:50:42.147Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "(pao frances - 564a18e5-f9be-4f3b-92fe-69a3118ddc4d)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-10-12T17:51:08.167Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Bebidas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-10-12T17:51:14.020Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Doces",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-10-12T17:51:21.011Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Salgados",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-10-12T17:51:49.511Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Pão francês 12",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-10-12T17:52:19.728Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Café pequeno 3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-10-12T17:52:42.414Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Donut de chocolate 6",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-10-12T17:52:57.327Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Folhado de frango 5.5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-10-12T18:02:11.539Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "( - 04bbdff5-74f3-433f-a5ce-cbaf6a513b1c)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-10-12T18:02:31.964Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "a@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Foto\", \"CPF\", \"Phone\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-10-12T18:03:27.575Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "(adminuser - a8df3ae9-943b-4e5a-9eb4-07cafe5d2e84)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-10-12T18:03:39.569Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "admin@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Foto\", \"CPF\", \"Phone\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-10-12T18:04:24.203Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "( - 21d1ba47-f864-48e1-a398-6b6ecea3a74b)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-10-12T18:04:34.307Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "(user - 21d1ba47-f864-48e1-a398-6b6ecea3a74b)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-10-12T18:04:43.584Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "aluno@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Foto\", \"CPF\", \"Phone\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-10-12T18:05:39.125Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "(Heric - d2791467-00c9-4848-afec-9e68eff2d7af)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-10-12T18:06:36.682Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "heric@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Foto\", \"CPF\", \"Phone\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-10-12T18:07:15.897Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "heric@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Birth Date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-10-12T18:33:16.108Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "12345 Apartamento 12345",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-10-12T18:33:51.655Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "211 Casa 89211620",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-10-12T18:34:21.525Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "211 Casa 89211620 - padaria.Produto.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-10-12T18:34:33.469Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "12345 Apartamento 12345 - padaria.Produto.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-10-12T18:34:43.926Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "admin@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Enderecos\", \"Carrinhos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-10-23T11:23:39.886Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "(pizzateste - ab1140b1-aea8-4384-91ea-0c4f56566af7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-10-23T11:24:11.484Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "(pizzateste - d7b2b5ae-4ddc-4a95-ba78-3b2f750d05da)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-10-23T11:58:13.552Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "(adminuser - a8df3ae9-943b-4e5a-9eb4-07cafe5d2e84)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"File\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-10-23T11:58:32.943Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "(Heric - d2791467-00c9-4848-afec-9e68eff2d7af)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"File\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-10-23T11:58:55.661Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "(user - 21d1ba47-f864-48e1-a398-6b6ecea3a74b)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"File\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-10-23T11:59:33.990Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "(pao frances - 564a18e5-f9be-4f3b-92fe-69a3118ddc4d)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"File\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-10-23T12:03:15.160Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "(donut de chocolate - e27cea5c-75ad-4c67-a490-f256a144c82d)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"File\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-10-23T12:03:32.295Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "(folhado de frango - 48eb41c5-e3d8-4cef-a2f2-87e0c9dc0b03)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"File\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-10-23T12:04:01.922Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "(café - b41b43de-c3e8-4671-8470-8ff2a0e703be)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"File\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-10-23T12:04:20.346Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "(Salgados - 66dd6aa7-5fd1-47d3-a8a0-941f7ed46914)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"File\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-10-23T12:04:34.168Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "(Doces - 1b3f2f75-3718-41da-88b8-c1ce36bca501)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"File\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-10-23T12:04:59.900Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "(Bebidas - 1813cf73-3217-49d7-998b-860449ac1108)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"File\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-10-23T12:05:13.818Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "(Pães - 074456d8-2088-4de0-b566-84268e5d6ed9)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"File\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-10-25T17:50:22.403Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "123456 Apartamento 12345 padaria.Item.None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Item\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-10-25T18:08:08.646Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "Café pequeno 3.00 476",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Quantidade\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2023-10-25T18:08:12.110Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "Donut de chocolate 6.00 476",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Produto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2023-11-06T17:25:15.980Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "admin@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Enderecos\", \"Carrinho\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2023-11-06T17:55:12.835Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "admin@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Enderecos\", \"Carrinho\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2023-12-03T22:17:30.168Z",
+    "user": 4,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "a@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Carrinho\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2023-12-03T22:17:35.898Z",
+    "user": 4,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "aluno@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Carrinho\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2023-12-03T22:17:43.080Z",
+    "user": 4,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "heric@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Carrinho\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2023-12-03T22:18:08.158Z",
+    "user": 4,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "aluno@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Carrinho\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2023-12-03T22:20:10.064Z",
+    "user": 4,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "a@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Carrinho\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 6,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 6,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 6,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 6,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 7,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 7,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 7,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 7,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Usuário",
+    "content_type": 8,
+    "codename": "add_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Usuário",
+    "content_type": 8,
+    "codename": "change_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Usuário",
+    "content_type": 8,
+    "codename": "delete_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Usuário",
+    "content_type": 8,
+    "codename": "view_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Endereço",
+    "content_type": 9,
+    "codename": "add_endereco"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Endereço",
+    "content_type": 9,
+    "codename": "change_endereco"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Endereço",
+    "content_type": 9,
+    "codename": "delete_endereco"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Endereço",
+    "content_type": 9,
+    "codename": "view_endereco"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add produto",
+    "content_type": 10,
+    "codename": "add_produto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change produto",
+    "content_type": 10,
+    "codename": "change_produto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete produto",
+    "content_type": 10,
+    "codename": "delete_produto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view produto",
+    "content_type": 10,
+    "codename": "view_produto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add Carrinho",
+    "content_type": 11,
+    "codename": "add_carrinho"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change Carrinho",
+    "content_type": 11,
+    "codename": "change_carrinho"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete Carrinho",
+    "content_type": 11,
+    "codename": "delete_carrinho"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view Carrinho",
+    "content_type": 11,
+    "codename": "view_carrinho"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add Categoria",
+    "content_type": 12,
+    "codename": "add_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change Categoria",
+    "content_type": 12,
+    "codename": "change_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete Categoria",
+    "content_type": 12,
+    "codename": "delete_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view Categoria",
+    "content_type": 12,
+    "codename": "view_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add item",
+    "content_type": 13,
+    "codename": "add_item"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change item",
+    "content_type": 13,
+    "codename": "change_item"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete item",
+    "content_type": 13,
+    "codename": "delete_item"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view item",
+    "content_type": 13,
+    "codename": "view_item"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "uploader",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "uploader",
+    "model": "image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "usuario",
+    "model": "usuario"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "padaria",
+    "model": "endereco"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "padaria",
+    "model": "produto"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "padaria",
+    "model": "carrinho"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "padaria",
+    "model": "categoria"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "padaria",
+    "model": "item"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4w1ifp8375992z20ieygs75fp5tl6y6n",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDE6QAu3fcMBIZBqgaS0q6Md7dNutDtf-_9t_BhXYpfO89-SuIqtDj9bjHQk-sO0iPUe5PU6jJPUe6KPGiXY0v8uh3u30EJvWw1JAQANMgKdQbMli6OVLBGRWA-o2VwdgCrDGVDnMhtJumBCTMbJz5fyw03zw:1qvh6z:d8cPTf-dDC4ScSIorAppMPLj7WGWTY0cbtvdl-6e2hw",
+    "expire_date": "2023-11-08T16:52:05.012Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5f64zxfs7ww8ya3vhnwkrcbk5rrnlejy",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSE8CmRcuvcbyMAMUjWQlHZl_Hdt0oVu7znnvkTEba1xG7zEmcRZaHH63RLmB7cd0B3brcvc27rMSe6KPOiQ1078vBzu30HFUb-1BeMJDEAALsA5MSrIuRSelMUAziiEVLg4jxy0MZnIk2PnfNJ2CuL9Afx2OH8:1qqzn1:TSA5ORzhQiGeHiJqMH4pbzNdywcw6oaut9fRbWOHnmg",
+    "expire_date": "2023-10-26T17:48:03.226Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5sbb0q071h3wp0mbqt1znvzvovf36w7k",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnx-pdQ0nMGa71r4wCypTipEHeHSCmgfTPzXiLgtpaw9bSEmcVZGHH63SLSI9Ud8B3rrUlqdV3mKHdFHrTLa-P0vBzu30HBXr41giPnvLYZIvvRDooBCUjpiTW6CJkz2ugTxgyoxsGwdyZpnBKCJS_eH_FgOIM:1r9um5:I0tX3xG9SWBhWMAMawKj1dbRzZKNbw59BYcp9zbSZlw",
+    "expire_date": "2023-12-17T22:17:17.029Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mcj2hxnfbx3nqj3ffj530y1uufips06d",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDE6QAu3fcMBIZBqgaS0q6Md7dNutDtf-_9t_BhXYpfO89-SuIqtDj9bjHQk-sO0iPUe5PU6jJPUe6KPGiXY0v8uh3u30EJvWw1JAQANMgKdQbMli6OVLBGRWA-o2VwdgCrDGVDnMhtJumBCTMbJz5fyw03zw:1r03Kh:Agx62Eect_g49xYscjZiglmTPFfmm254daMBzYnfYu8",
+    "expire_date": "2023-11-20T17:24:15.109Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "me8n0gyxo3pwh8xh1ywsqt3oa6fjo3cn",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDE6QAu3fcMBIZBqgaS0q6Md7dNutDtf-_9t_BhXYpfO89-SuIqtDj9bjHQk-sO0iPUe5PU6jJPUe6KPGiXY0v8uh3u30EJvWw1JAQANMgKdQbMli6OVLBGRWA-o2VwdgCrDGVDnMhtJumBCTMbJz5fyw03zw:1r03oE:KVaOaF8auiWqDU0TdP4aDAon2ZXk-vgmBrgQXglMu0U",
+    "expire_date": "2023-11-20T17:54:46.296Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mqvj10rd08ed8yee5xam6dflyeav8sx7",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnx-pdQ0nMGa71r4wCypTipEHeHSCmgfTPzXiLgtpaw9bSEmcVZGHH63SLSI9Ud8B3rrUlqdV3mKHdFHrTLa-P0vBzu30HBXr41giPnvLYZIvvRDooBCUjpiTW6CJkz2ugTxgyoxsGwdyZpnBKCJS_eH_FgOIM:1r7Ljd:vH4H9OYSw8L4Dy3CAuKe4Lm2YbEiqa-8ELdfYwrsXts",
+    "expire_date": "2023-12-10T20:28:09.281Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "stpxv49a1jzvo9w9bjv5vv33smntz2wh",
+  "fields": {
+    "session_data": ".eJxVjEEOgjAQRe_StWmmRVpw6Z4zkJnpr6AGEgor492VhIVu_3vvv0zP2zr0W8HSj8lcTGVOv5uwPjDtIN15us1W52ldRrG7Yg9abDcnPK-H-3cwcBm-dUZ0WThUzHUjwQONJ9cGkE8ARSdCWc8eDiqxRtCqIQILavLaqnl_AAedONk:1qut1b:23LA4Hlf9TNf6RQOaX95OcZsWZ7JlRhi4Mn9xnKRsbU",
+    "expire_date": "2023-11-06T11:23:11.788Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "074456d8-2088-4de0-b566-84268e5d6ed9",
+    "public_id": "14e01bb8-95b4-46c8-ba1d-e9148021fb3e",
+    "file": "media/images/14e01bb8-95b4-46c8-ba1d-e9148021fb3e_jpbctl",
+    "description": "Pães",
+    "uploaded_on": "2023-10-12T17:48:48.880Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 2,
+  "fields": {
+    "attachment_key": "1813cf73-3217-49d7-998b-860449ac1108",
+    "public_id": "7b8a6e7d-b92d-46ac-bfc6-dd04a6a8da73",
+    "file": "media/images/7b8a6e7d-b92d-46ac-bfc6-dd04a6a8da73_m19rfx",
+    "description": "Bebidas",
+    "uploaded_on": "2023-10-12T17:49:06.776Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 3,
+  "fields": {
+    "attachment_key": "1b3f2f75-3718-41da-88b8-c1ce36bca501",
+    "public_id": "403e8c22-9d2b-47ce-a5a4-31db8e6f8fa0",
+    "file": "media/images/403e8c22-9d2b-47ce-a5a4-31db8e6f8fa0_udtyqg",
+    "description": "Doces",
+    "uploaded_on": "2023-10-12T17:49:27.122Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 4,
+  "fields": {
+    "attachment_key": "66dd6aa7-5fd1-47d3-a8a0-941f7ed46914",
+    "public_id": "5168328a-517e-4ac0-bae8-9531e2852d33",
+    "file": "media/images/5168328a-517e-4ac0-bae8-9531e2852d33_kzhq4x",
+    "description": "Salgados",
+    "uploaded_on": "2023-10-12T17:49:43.738Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 5,
+  "fields": {
+    "attachment_key": "b41b43de-c3e8-4671-8470-8ff2a0e703be",
+    "public_id": "040bb032-7a1c-43df-aa46-66a7b4a3db3c",
+    "file": "media/images/040bb032-7a1c-43df-aa46-66a7b4a3db3c_n10fiy",
+    "description": "café",
+    "uploaded_on": "2023-10-12T17:49:54.277Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 6,
+  "fields": {
+    "attachment_key": "48eb41c5-e3d8-4cef-a2f2-87e0c9dc0b03",
+    "public_id": "3f287708-b709-47d3-b296-736a19d8a71e",
+    "file": "media/images/3f287708-b709-47d3-b296-736a19d8a71e_dsy7g8",
+    "description": "folhado de frango",
+    "uploaded_on": "2023-10-12T17:50:15.980Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 7,
+  "fields": {
+    "attachment_key": "e27cea5c-75ad-4c67-a490-f256a144c82d",
+    "public_id": "f5468be6-3ca2-4092-8e67-6cf81e6022bf",
+    "file": "media/images/f5468be6-3ca2-4092-8e67-6cf81e6022bf_m0csds",
+    "description": "donut de chocolate",
+    "uploaded_on": "2023-10-12T17:50:28.672Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 8,
+  "fields": {
+    "attachment_key": "564a18e5-f9be-4f3b-92fe-69a3118ddc4d",
+    "public_id": "86bb171a-d317-4e27-a5a7-a77d71707a6d",
+    "file": "media/images/86bb171a-d317-4e27-a5a7-a77d71707a6d_u9jkil",
+    "description": "pao frances",
+    "uploaded_on": "2023-10-12T17:50:42.145Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 9,
+  "fields": {
+    "attachment_key": "04bbdff5-74f3-433f-a5ce-cbaf6a513b1c",
+    "public_id": "d88dbc7c-84a3-4062-82a8-b568f0a3f1ef",
+    "file": "images/d88dbc7c-84a3-4062-82a8-b568f0a3f1ef.jpg",
+    "description": "",
+    "uploaded_on": "2023-10-12T18:02:11.538Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 10,
+  "fields": {
+    "attachment_key": "a8df3ae9-943b-4e5a-9eb4-07cafe5d2e84",
+    "public_id": "9a52f255-d546-4af3-ae06-b8ba5d72aeb0",
+    "file": "media/images/9a52f255-d546-4af3-ae06-b8ba5d72aeb0_vgws9v",
+    "description": "adminuser",
+    "uploaded_on": "2023-10-12T18:03:27.281Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 11,
+  "fields": {
+    "attachment_key": "21d1ba47-f864-48e1-a398-6b6ecea3a74b",
+    "public_id": "521fb5e5-3a61-46b4-9369-98ea180d8c4c",
+    "file": "media/images/521fb5e5-3a61-46b4-9369-98ea180d8c4c_qknfcw",
+    "description": "user",
+    "uploaded_on": "2023-10-12T18:04:23.935Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 12,
+  "fields": {
+    "attachment_key": "d2791467-00c9-4848-afec-9e68eff2d7af",
+    "public_id": "ee0eff40-c340-496c-b278-ac95c35f488f",
+    "file": "media/images/ee0eff40-c340-496c-b278-ac95c35f488f_rauzw8",
+    "description": "Heric",
+    "uploaded_on": "2023-10-12T18:05:38.875Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 13,
+  "fields": {
+    "attachment_key": "ab1140b1-aea8-4384-91ea-0c4f56566af7",
+    "public_id": "c025b894-1a5e-4301-8ca3-2ca9d4ee94ad",
+    "file": "media/images/c025b894-1a5e-4301-8ca3-2ca9d4ee94ad_yodgrk",
+    "description": "pizzateste",
+    "uploaded_on": "2023-10-23T11:23:39.884Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 14,
+  "fields": {
+    "attachment_key": "d7b2b5ae-4ddc-4a95-ba78-3b2f750d05da",
+    "public_id": "ae33d01f-3d24-4f45-a69f-fc3069fa73f3",
+    "file": "media/images/ae33d01f-3d24-4f45-a69f-fc3069fa73f3_gduoup",
+    "description": "pizzateste",
+    "uploaded_on": "2023-10-23T11:24:11.482Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 15,
+  "fields": {
+    "attachment_key": "726ac7c1-bcf8-497c-b2c9-737f75b32a4b",
+    "public_id": "5ffdc37c-d770-4727-a168-728495111305",
+    "file": "media/images/5ffdc37c-d770-4727-a168-728495111305_fzh26u",
+    "description": "",
+    "uploaded_on": "2023-10-23T19:02:22.273Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 16,
+  "fields": {
+    "attachment_key": "5f02c198-6c17-43ab-b8af-0263fbc2d8c1",
+    "public_id": "11fad51d-f271-4a7d-884f-5fca55c59cfa",
+    "file": "media/images/11fad51d-f271-4a7d-884f-5fca55c59cfa_zz78jw",
+    "description": "",
+    "uploaded_on": "2023-10-23T19:03:49.172Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 17,
+  "fields": {
+    "attachment_key": "10a2f3ce-baf8-4627-adee-eb2ecd75911f",
+    "public_id": "b5b39059-e846-43a2-9b46-6d28544aa398",
+    "file": "media/images/b5b39059-e846-43a2-9b46-6d28544aa398_eyh4pv",
+    "description": "",
+    "uploaded_on": "2023-10-23T19:04:08.531Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 18,
+  "fields": {
+    "attachment_key": "0df830f4-b52d-4fad-bb4c-71aae8d3ce51",
+    "public_id": "9e6de416-fd6c-4e71-a72e-f287057c4a37",
+    "file": "images/9e6de416-fd6c-4e71-a72e-f287057c4a37.png",
+    "description": "",
+    "uploaded_on": "2023-12-03T22:52:53.553Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 19,
+  "fields": {
+    "attachment_key": "47aa4732-9da0-4289-89d9-80269ee817af",
+    "public_id": "809058ee-6c85-4998-958b-908e948cf3c7",
+    "file": "images/809058ee-6c85-4998-958b-908e948cf3c7.jpg",
+    "description": "",
+    "uploaded_on": "2023-12-03T22:54:20.170Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 20,
+  "fields": {
+    "attachment_key": "2a17817d-e46e-4104-8e8b-19012c55dc4b",
+    "public_id": "d10852ae-e32c-4957-9865-2d1be69954e0",
+    "file": "images/d10852ae-e32c-4957-9865-2d1be69954e0.jpg",
+    "description": "",
+    "uploaded_on": "2023-12-03T22:55:23.155Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 21,
+  "fields": {
+    "attachment_key": "9880e1d6-d8f3-4d79-b891-de30d6f70b2a",
+    "public_id": "bd0742fd-e400-4897-9b49-d206f6338fee",
+    "file": "images/bd0742fd-e400-4897-9b49-d206f6338fee.jpg",
+    "description": "",
+    "uploaded_on": "2023-12-03T22:56:35.664Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 22,
+  "fields": {
+    "attachment_key": "557d6857-e670-43c3-89b5-efd6842e5874",
+    "public_id": "db5eb305-9030-4f2b-873c-42dca590faa6",
+    "file": "images/db5eb305-9030-4f2b-873c-42dca590faa6.jpg",
+    "description": "",
+    "uploaded_on": "2023-12-03T22:58:16.654Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 23,
+  "fields": {
+    "attachment_key": "be954012-45e7-4425-acd6-15d53b468ab8",
+    "public_id": "261865f9-d8a9-4ced-9ccf-12ba1b9d3fdd",
+    "file": "images/261865f9-d8a9-4ced-9ccf-12ba1b9d3fdd.jpg",
+    "description": "",
+    "uploaded_on": "2023-12-03T22:58:54.204Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 24,
+  "fields": {
+    "attachment_key": "00ed0363-0cd0-4d76-9a3b-358acf87e53e",
+    "public_id": "2eea940f-4dda-4fa1-8659-60946ce55ac8",
+    "file": "images/2eea940f-4dda-4fa1-8659-60946ce55ac8.jpg",
+    "description": "",
+    "uploaded_on": "2023-12-03T22:59:31.533Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 25,
+  "fields": {
+    "attachment_key": "c7e02830-dc61-416a-bfe0-d583b2275ba4",
+    "public_id": "7226bb7c-1bee-48ba-9e33-11c36018cf25",
+    "file": "images/7226bb7c-1bee-48ba-9e33-11c36018cf25.jpg",
+    "description": "",
+    "uploaded_on": "2023-12-03T23:00:43.428Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 26,
+  "fields": {
+    "attachment_key": "9088448c-3e80-4a62-ad59-88f32c50e50a",
+    "public_id": "613f920e-6295-4555-8650-55ec0aabcda5",
+    "file": "images/613f920e-6295-4555-8650-55ec0aabcda5.jpg",
+    "description": "",
+    "uploaded_on": "2023-12-03T23:01:17.577Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 27,
+  "fields": {
+    "attachment_key": "f2431f09-dd5c-4461-bfdd-4283f71a38b0",
+    "public_id": "7b70a766-2f75-4748-a650-9f94ed14a894",
+    "file": "images/7b70a766-2f75-4748-a650-9f94ed14a894.jpg",
+    "description": "",
+    "uploaded_on": "2023-12-03T23:02:49.184Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 28,
+  "fields": {
+    "attachment_key": "90571df5-a855-4491-b688-05eb1c409d48",
+    "public_id": "cd55a5c7-8e14-4723-8116-46555261e024",
+    "file": "images/cd55a5c7-8e14-4723-8116-46555261e024.jpg",
+    "description": "",
+    "uploaded_on": "2023-12-03T23:03:00.833Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 29,
+  "fields": {
+    "attachment_key": "958a0032-255f-49cb-b6ee-62d25ad28c96",
+    "public_id": "d700d566-53e9-4a02-96c3-bb2de7878f03",
+    "file": "images/d700d566-53e9-4a02-96c3-bb2de7878f03.jpg",
+    "description": "",
+    "uploaded_on": "2023-12-03T23:41:14.924Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 30,
+  "fields": {
+    "attachment_key": "dba5a9fa-2095-415b-9aa3-103f305b4a39",
+    "public_id": "0b977ae4-8150-49f3-85b4-d3b33f14da2e",
+    "file": "images/0b977ae4-8150-49f3-85b4-d3b33f14da2e.jpg",
+    "description": "",
+    "uploaded_on": "2023-12-03T23:45:23.319Z"
+  }
+},
+{
+  "model": "usuario.usuario",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$80uxjcAdRm0fdQAPNIj9kS$UNNCG4hIU/OnMb06ehhtQNLflgmvqAt4bfiNCihjVnU=",
+    "last_login": "2023-10-12T17:48:03.131Z",
+    "is_superuser": true,
+    "first_name": "a",
+    "last_name": "a",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-10-12T17:34:27.707Z",
+    "email": "a@gmail.com",
+    "cpf": "111",
+    "telefone": "9111",
+    "data_nascimento": null,
+    "foto": 9,
+    "carrinho": 1,
+    "groups": [],
+    "user_permissions": [],
+    "enderecos": []
+  }
+},
+{
+  "model": "usuario.usuario",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$8vta7bcTUbAE3TNTCok9YS$BMTeVbZjkKrmU/o9mUnhb99wb1S86uh+Ohw4XVOBMMA=",
+    "last_login": "2023-11-06T17:54:46.293Z",
+    "is_superuser": true,
+    "first_name": "Heric",
+    "last_name": "Matheus Damasio",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-10-12T17:54:18.242Z",
+    "email": "heric@gmail.com",
+    "cpf": "08488285930",
+    "telefone": "996208898",
+    "data_nascimento": "2023-11-19",
+    "foto": 12,
+    "carrinho": 2,
+    "groups": [],
+    "user_permissions": [],
+    "enderecos": []
+  }
+},
+{
+  "model": "usuario.usuario",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$k4PRtxSFv5P1EINAudUDo9$gNEbFEIY+tzSwpRUzznrefoBpRzEanHMooULzLJX7xA=",
+    "last_login": "2023-10-23T11:23:11.663Z",
+    "is_superuser": true,
+    "first_name": "aluno",
+    "last_name": "aluno",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-10-12T17:54:31.929Z",
+    "email": "aluno@gmail.com",
+    "cpf": "123",
+    "telefone": "9123",
+    "data_nascimento": null,
+    "foto": 11,
+    "carrinho": 2,
+    "groups": [],
+    "user_permissions": [],
+    "enderecos": []
+  }
+},
+{
+  "model": "usuario.usuario",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$enefCsZL5HKLjQ5Chiz62A$b9ReJ3nlnO8qYVbqFrSbL14xQaW5VL/ZtDmbvd4amHs=",
+    "last_login": "2023-12-03T22:17:16.949Z",
+    "is_superuser": true,
+    "first_name": "admin",
+    "last_name": "admin",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-10-12T17:54:44.104Z",
+    "email": "admin@gmail.com",
+    "cpf": "12345",
+    "telefone": "912345",
+    "data_nascimento": null,
+    "foto": 10,
+    "carrinho": 2,
+    "groups": [],
+    "user_permissions": [],
+    "enderecos": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "padaria.categoria",
+  "pk": 1,
+  "fields": {
+    "descricao": "Pães",
+    "imagem": 1
+  }
+},
+{
+  "model": "padaria.categoria",
+  "pk": 2,
+  "fields": {
+    "descricao": "Bebidas",
+    "imagem": 2
+  }
+},
+{
+  "model": "padaria.categoria",
+  "pk": 3,
+  "fields": {
+    "descricao": "Doces",
+    "imagem": 3
+  }
+},
+{
+  "model": "padaria.categoria",
+  "pk": 4,
+  "fields": {
+    "descricao": "Salgados",
+    "imagem": 4
+  }
+},
+{
+  "model": "padaria.endereco",
+  "pk": 1,
+  "fields": {
+    "numero": 123456,
+    "complemento": "Apartamento",
+    "cep": 12345
+  }
+},
+{
+  "model": "padaria.endereco",
+  "pk": 2,
+  "fields": {
+    "numero": 211,
+    "complemento": "Casa",
+    "cep": 89211620
+  }
+},
+{
+  "model": "padaria.endereco",
+  "pk": 3,
+  "fields": {
+    "numero": 123,
+    "complemento": "teste",
+    "cep": 123
+  }
+},
+{
+  "model": "padaria.endereco",
+  "pk": 4,
+  "fields": {
+    "numero": 123,
+    "complemento": "teste",
+    "cep": 123
+  }
+},
+{
+  "model": "padaria.produto",
+  "pk": 1,
+  "fields": {
+    "nome": "Pão francês",
+    "preco": "12.00",
+    "unidade": 2,
+    "categoria": 1,
+    "cover": 8
+  }
+},
+{
+  "model": "padaria.produto",
+  "pk": 2,
+  "fields": {
+    "nome": "Café pequeno",
+    "preco": "3.00",
+    "unidade": 1,
+    "categoria": 2,
+    "cover": 5
+  }
+},
+{
+  "model": "padaria.produto",
+  "pk": 3,
+  "fields": {
+    "nome": "Donut de chocolate",
+    "preco": "6.00",
+    "unidade": 1,
+    "categoria": 3,
+    "cover": 7
+  }
+},
+{
+  "model": "padaria.produto",
+  "pk": 4,
+  "fields": {
+    "nome": "Folhado de frango",
+    "preco": "5.50",
+    "unidade": 1,
+    "categoria": 4,
+    "cover": 6
+  }
+},
+{
+  "model": "padaria.item",
+  "pk": 1,
+  "fields": {
+    "produto": 3,
+    "quantidade": 476
+  }
+},
+{
+  "model": "padaria.item",
+  "pk": 2,
+  "fields": {
+    "produto": 2,
+    "quantidade": 4
+  }
+},
+{
+  "model": "padaria.item",
+  "pk": 3,
+  "fields": {
+    "produto": 1,
+    "quantidade": 1
+  }
+},
+{
+  "model": "padaria.item",
+  "pk": 4,
+  "fields": {
+    "produto": 1,
+    "quantidade": 0
+  }
+},
+{
+  "model": "padaria.item",
+  "pk": 5,
+  "fields": {
+    "produto": 1,
+    "quantidade": 0
+  }
+},
+{
+  "model": "padaria.item",
+  "pk": 6,
+  "fields": {
+    "produto": 1,
+    "quantidade": 1
+  }
+},
+{
+  "model": "padaria.carrinho",
+  "pk": 1,
+  "fields": {
+    "endereco": 2,
+    "item": []
+  }
+},
+{
+  "model": "padaria.carrinho",
+  "pk": 2,
+  "fields": {
+    "endereco": 1,
+    "item": [
+      1,
+      2
+    ]
+  }
+}
+]
