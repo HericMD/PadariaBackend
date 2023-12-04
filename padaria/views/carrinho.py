@@ -5,7 +5,6 @@ from rest_framework.viewsets import ModelViewSet
 from padaria.models import Carrinho
 from padaria.serializers import CarrinhoSerializer, CarrinhoListSerializer, CarrinhoDetailSerializer
 
-
 class CarrinhoViewSet(ModelViewSet):
     queryset = Carrinho.objects.all()
 

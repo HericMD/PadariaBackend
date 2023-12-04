@@ -19,10 +19,10 @@ class CarrinhoDetailSerializer(ModelSerializer):
         depth = 3
 
 class CarrinhoListSerializer(ModelSerializer):
-    complemento = CharField(source="endereco.complemento", read_only=True)
-    numero = IntegerField(source="endereco.numero", read_only=True)
-    cep = IntegerField(source="endereco.cep", read_only=True)
+    # complemento = CharField(source="endereco.complemento", read_only=True)
+    # numero = IntegerField(source="endereco.numero", read_only=True)
+    # cep = IntegerField(source="endereco.cep", read_only=True)
     class Meta:
         model = Carrinho
-        fields = ["id", "cep", "numero", "complemento", "item"]
+        fields = "__all__"
         depth = 3
