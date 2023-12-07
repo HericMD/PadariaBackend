@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     'usuario',
     'padaria',
     'drf_spectacular',
+    "django_filters",
 ]
 
 if MODE in ["PRODUCTION", "MIGRATE"]:
