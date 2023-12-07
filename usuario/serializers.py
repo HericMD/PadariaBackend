@@ -27,17 +27,16 @@ class UsuarioSerializer(ModelSerializer):
     carrinho = CarrinhoDetailSerializer(required=False, read_only=True)
 
     endereco_attachment_key = SlugRelatedField(
-        source="endereco",
+        source="endereco_usuario",
         queryset=Endereco.objects.all(),
         slug_field="id",
         required=False,
         write_only=True,
     )
-    endereco = EnderecoSerializer(required=False, read_only=True)
-
-    unidade = CharField(source="get_unidade_display", read_only=True)
+    endereco_usuario = EnderecoSerializer(required=False, read_only=True)
     class Meta:
         carrinho = CarrinhoDetailSerializer(many=False)
+        endereco_usuario = EnderecoSerializer(many=False)
         model = Usuario
         fields = "__all__"
         depth = 3
