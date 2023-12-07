@@ -1,4 +1,4 @@
-from rest_framework.serializers import ModelSerializer, SlugRelatedField
+from rest_framework.serializers import ModelSerializer, SlugRelatedField, CharField
 
 from .models import Usuario
 from uploader.models import Image
@@ -35,7 +35,9 @@ class UsuarioSerializer(ModelSerializer):
     )
     endereco = EnderecoSerializer(required=False, read_only=True)
 
+    unidade = CharField(source="get_unidade_display", read_only=True)
     class Meta:
+        carrinho = CarrinhoDetailSerializer(many=False)
         model = Usuario
         fields = "__all__"
         depth = 3

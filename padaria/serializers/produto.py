@@ -20,6 +20,16 @@ class ProdutoSerializer(ModelSerializer):
         fields = "__all__"
 
 class ProdutoDetailSerializer(ModelSerializer):
+    categoria = CharField(source="categoria.descricao", read_only=True)
+    unidade = CharField(source="get_unidade_display", read_only=True) 
+    cover_attachment_key = serializers.SlugRelatedField(
+        source="cover",
+        queryset=Image.objects.all(),       # pylint: disable=no-member
+        slug_field="attachment_key",
+        required=False,
+        write_only=True,
+    )
+    cover = ImageSerializer(required=False, read_only=True)
     class Meta:
         model = Produto
         fields = "__all__"
