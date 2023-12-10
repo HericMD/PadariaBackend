@@ -1,6 +1,7 @@
 from django.shortcuts import render
 
 from rest_framework.viewsets import ModelViewSet
+from django_filters.rest_framework import DjangoFilterBackend
 
 from padaria.models import Produto
 from padaria.serializers import ProdutoSerializer, ProdutoListSerializer, ProdutoDetailSerializer
@@ -14,3 +15,6 @@ class ProdutoViewSet(ModelViewSet):
         elif self.action == "retrieve":
             return ProdutoDetailSerializer
         return ProdutoSerializer
+
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ["categoria"] 

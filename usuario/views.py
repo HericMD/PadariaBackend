@@ -9,4 +9,5 @@ class UsuarioViewSet(ModelViewSet):
     serializer_class = UsuarioSerializer
 
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ["email"]
+    filterset_fields = ["email"] 
+ 

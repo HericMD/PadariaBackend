@@ -55,7 +55,7 @@ else:
     }
 
 # MEDIA_URL = "http://192.168.0.19:19003/media/"
-MEDIA_ENDPOINT = "/media/"
+MEDIA_ENDPOINT = "/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
 FILE_UPLOAD_PERMISSIONS = 0o640
 
@@ -140,9 +140,11 @@ if MODE in ["PRODUCTION", "MIGRATE"]:
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
     MEDIA_URL = '/media/' 
 else:    
-    MY_IP = os.getenv("MY_IP", "127.0.0.1")
-    MEDIA_URL = "https://res.cloudinary.com/dphys41me/image/upload/v1/"
-    # MEDIA_URL = f"http://127.0.0.1:8000/media"
+    CLOUDINARY_URL = os.getenv("CLOUDINARY_URL")
+    DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+    STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+    MEDIA_URL = '/media/' 
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
